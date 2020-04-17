@@ -1,0 +1,159 @@
+[
+    {
+        "model": "book_store_app.cliente",
+        "pk": 1,
+        "fields": {
+            "nome": "Fabricio"
+        }
+    },
+    {
+        "model": "book_store_app.cliente",
+        "pk": 2,
+        "fields": {
+            "nome": "Maria"
+        }
+    },
+    {
+        "model": "book_store_app.cliente",
+        "pk": 3,
+        "fields": {
+            "nome": "Ricardo"
+        }
+    },
+    {
+        "model": "book_store_app.cliente",
+        "pk": 4,
+        "fields": {
+            "nome": "Frederico"
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 1,
+        "fields": {
+            "nome": "Clean Code",
+            "reservado": true
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 2,
+        "fields": {
+            "nome": "Padrões JavaScripts",
+            "reservado": true
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 3,
+        "fields": {
+            "nome": "Data Science do zero",
+            "reservado": true
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 4,
+        "fields": {
+            "nome": "Manual de DevOps",
+            "reservado": true
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 5,
+        "fields": {
+            "nome": "Entendendo Algoritimos",
+            "reservado": true
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 6,
+        "fields": {
+            "nome": "Microsserviços prontos para a produção",
+            "reservado": false
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 7,
+        "fields": {
+            "nome": "Introdução à Programação com Python",
+            "reservado": false
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 8,
+        "fields": {
+            "nome": "Padrões de Projeto",
+            "reservado": false
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 9,
+        "fields": {
+            "nome": "Arquitetura Limpa",
+            "reservado": false
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 10,
+        "fields": {
+            "nome": "Design Patterns",
+            "reservado": false
+        }
+    },
+    {
+        "model": "book_store_app.livro",
+        "pk": 11,
+        "fields": {
+            "nome": "Refatoração para Padrões",
+            "reservado": false
+        }
+    },
+    {
+        "model": "book_store_app.reserva",
+        "fields": {
+            "cliente": 1,
+            "livro": 1,
+            "reservado_em": "2020-04-17"
+        }
+    },
+    {
+        "model": "book_store_app.reserva",
+        "fields": {
+            "cliente": 2,
+            "livro": 2,
+            "reservado_em": "2020-04-16"
+        }
+    },
+    {
+        "model": "book_store_app.reserva",
+        "fields": {
+            "cliente": 3,
+            "livro": 3,
+            "reservado_em": "2020-04-15"
+        }
+    },
+    {
+        "model": "book_store_app.reserva",
+        "fields": {
+            "cliente": 4,
+            "livro": 4,
+            "reservado_em": "2020-04-14"
+        }
+    },
+    {
+        "model": "book_store_app.reserva",
+        "fields": {
+            "cliente": 1,
+            "livro": 5,
+            "reservado_em": "2020-04-13"
+        }
+    }
+
+]
