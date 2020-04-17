@@ -1,0 +1,5 @@
+[pycodestyle]
+count = True
+max-line-length = 100
+exclude = .\book_store_app\migrations\
+statistics = True
